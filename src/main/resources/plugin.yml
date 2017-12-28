@@ -1,0 +1,7 @@
+name: VexCore
+version: ${project.version}
+main: net.vexmc.vexmc.VexCore
+prefix: VEX
+authors: [Recro]
+description: Core plugin for vex
+website: vexmc.net
