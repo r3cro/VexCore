@@ -24,7 +24,7 @@ public final class VexCore extends JavaPlugin {
         PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new AntiPortalTrap(), this);
         pm.registerEvents(new RaidableDefenses(), this);
-        pm.registerEvents(new ExplodableLava(), this);
+        pm.registerEvents(new ExplodableLava(), this);//asdf
     }
 
     private void regisetCommands(){
