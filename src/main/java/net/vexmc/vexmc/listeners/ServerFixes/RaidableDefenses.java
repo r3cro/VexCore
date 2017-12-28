@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class RaidableDefenses implements Listener {
+public class    RaidableDefenses implements Listener {
 
     private static final Set<Material> destroyBlocks = new HashSet<>(Arrays.asList(
             Material.ANVIL,
@@ -35,6 +35,10 @@ public class RaidableDefenses implements Listener {
             Material.TRAPPED_CHEST,
             Material.WOODEN_DOOR,
             Material.BED,
+            Material.ENDER_CHEST,
+            Material.TORCH,
+            Material.REDSTONE_TORCH_OFF,
+            Material.REDSTONE_TORCH_ON,
             Material.BED_BLOCK
     ));
 

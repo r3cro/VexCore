@@ -11,7 +11,7 @@ public final class VexCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        regisetCommands();
+        registerCommands();
         registerListeners();
     }
 
@@ -27,7 +27,7 @@ public final class VexCore extends JavaPlugin {
         pm.registerEvents(new ExplodableLava(), this);//asdf
     }
 
-    private void regisetCommands(){
+    private void registerCommands(){
 
     }
 
