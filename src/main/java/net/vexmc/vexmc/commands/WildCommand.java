@@ -67,7 +67,7 @@ public class WildCommand implements CommandExecutor {
         if(world.getName().equalsIgnoreCase("flatend")) return;
         this.tp=new Location(player.getWorld(), this.x+0.5,(double)this.y,this.z+0.5);
         final Location tpy = new Location(this.tp.getWorld(),this.tp.getX(),this.tp.getY()-1,this.tp.getZ());
-        if (this.tp.getWorld().getBlockAt(this.tp).getType().equals((Object) Material.LAVA) || this.tp.getWorld().getBlockAt(this.tp).getType().equals((Object)Material.STATIONARY_LAVA) || TPy.getWorld().getBlockAt(TPy).getType().equals((Object)Material.STATIONARY_LAVA)) {
+        if (this.tp.getWorld().getBlockAt(this.tp).getType().equals((Object) Material.LAVA) || this.tp.getWorld().getBlockAt(this.tp).getType().equals((Object)Material.STATIONARY_LAVA) || tpy.getWorld().getBlockAt(tpy).getType().equals((Object)Material.STATIONARY_LAVA)) {
             this.genCoord(player.getWorld(), player);
             return;
         }
