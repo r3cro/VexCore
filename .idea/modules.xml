@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VexCore.iml" filepath="$PROJECT_DIR$/VexCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vexmc.iml" filepath="$PROJECT_DIR$/vexmc.iml" />
     </modules>
   </component>
 </project>

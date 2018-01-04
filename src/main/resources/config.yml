@@ -1,0 +1,14 @@
+WithdrawCost: 15
+InsufficientFunds: '&eInsufficient funds'
+OfficerOrHigher: '&eYou must be officer'
+SpecifyAmount: '&eYou must specify an amount'
+InvalidFormat: '&cInvalid format'
+NotEnoughTNT: '&cYou do not have enough TNT'
+InvalidFaction: '&cThat faction does not exist'
+Wilderness: '&cYou cannot place this in the wild'
+TNTBalance: '&bYour faction has &e%tnt% TNT'
+Withdraw: '&e%tnt% TNT &b has been withdrawn for &e%price%'
+InfoMessage:
+- '&6_______.[&2Help for Faction TNT&6]._______'
+- '&b/f tnt balance &e shows the amount of tnt your faction has'
+- '&b/f tnt withdraw &e withdraws tnt out of your /f tnt balance'

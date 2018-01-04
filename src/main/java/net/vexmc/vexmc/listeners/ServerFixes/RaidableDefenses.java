@@ -36,9 +36,6 @@ public class    RaidableDefenses implements Listener {
             Material.WOODEN_DOOR,
             Material.BED,
             Material.ENDER_CHEST,
-            Material.TORCH,
-            Material.REDSTONE_TORCH_OFF,
-            Material.REDSTONE_TORCH_ON,
             Material.BED_BLOCK
     ));
 

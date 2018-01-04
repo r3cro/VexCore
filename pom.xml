@@ -63,6 +63,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>vault-repo</id>
+            <url>http://nexus.hc.to/content/repositories/pub_releases</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -71,6 +75,26 @@
             <artifactId>spigot-api</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.milkbowl.vault</groupId>
+            <artifactId>VaultAPI</artifactId>
+            <version>1.6</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.vexmc.massivecore</groupId>
+            <artifactId>net.vexmc</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/MassiveCore.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.vexmc.factionsx</groupId>
+            <artifactId>net.vexmc</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/FactionsX.jar</systemPath>
         </dependency>
     </dependencies>
 </project>

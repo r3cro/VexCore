@@ -5,3 +5,9 @@ prefix: VEX
 authors: [Recro]
 description: Core plugin for vex
 website: vexmc.net
+
+commands:
+  tntchest:
+    description: TNTChest Give Admin Command
+  discord:
+    description: Discord Link
